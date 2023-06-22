@@ -1,1 +1,82 @@
-
+body{
+    color:white;
+    margin: 0;
+    background-color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    height: 110px;
+}
+section{
+    padding: 2%;
+}
+.capa{
+    color: white;
+    height: 500px;
+    background-color: rgb(117, 3, 3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.luis{
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.perfil{
+    width: 400px;
+}
+.grupo-luis{
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.imagem{
+    flex: 1;
+    text-align: center;
+}
+.sobre{
+    display: flex;
+    justify-content: space-around;
+}
+.informacao, tt-grupos{
+    flex: 1;
+}
+.todos-grupos{
+    height: 70vh;
+    background-color: rgb(116, 3, 3);
+}
+.grupos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+#logo-booklet{
+    height: 200px;
+    flex: 2;
+}
+.logo-small{
+    height: auto;
+    width: 300px;
+}
+.grupo{
+    flex: 0 0 20%;
+    margin: 30px;
+}
+.texto-aluno{
+    text-align: right;
+}
