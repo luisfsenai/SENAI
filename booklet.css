@@ -1,0 +1,262 @@
+/* GERAL */
+body{
+    margin: 0;
+  
+    color: antiquewhite;
+    background-color: #3b3b7c;
+ 
+}
+
+
+/* 1ª SEÇÃO - GABI */
+
+.catalogo{
+    height: 98vh;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    }
+    .icone{
+       height: 30px;
+    }
+    .Logo{
+       height: 70px;
+    }
+    .Menu{
+       background-color: rgb(111, 38, 181);
+       display: flex;
+       height: 80px;
+       align-items: center;
+    }
+    .principal{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       color: black;
+       padding-left: 40px;
+       justify-content:space-around;
+    }
+    .Lista{
+       display: flex;
+       list-style: none;
+       gap: 20px;
+       color: rgb(0, 0, 0);
+    }
+    .catalogo a{
+       color: rgb(0, 0, 0);
+       text-decoration: none;
+    }
+   
+   .catalogo h1{
+   font-size: 60px;
+   padding: 0%;
+   color: black;
+    }
+    .catalogo h2{
+       font-size: 40px;
+    color: black;
+   }
+   .botao{
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   
+   .cta{
+   height: 30px;
+   width: 100px;
+   background-color: rgb(111, 38, 181);
+   border: none;
+   }
+   
+/* 2 SEÇÃO - ANA */
+
+.beneficios{
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+/*     font-size: 50px;
+ */    }
+
+
+.botaoB{
+    background-color: rgb(225, 0, 225);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+.center-botaoB{
+    text-align: center;
+}
+
+
+.topicos{
+    display: flex;
+    font-size: 20px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.planitos{
+    text-align: center;
+    color: white;
+}
+
+
+.botao2{
+   text-align: center;
+}
+
+
+.lista1{
+    width: 50vw;
+}
+.baixar{
+    width: 25vw;
+    padding: 12%;
+}
+
+/* 3ª SEÇÃO - LUARA */
+
+.livros{
+    height: 60vh;
+    background-color: white;
+
+
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+   
+}
+.capas{
+    width: 150px;
+    border-radius:15px;
+}
+
+
+.livros h3{
+    color:black;
+    padding: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.livros h2{
+    color:black;
+    padding: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* 4ª SEÇÃO - PEDRO */
+.mockup{
+    background-color: #28286F;
+}
+
+.roxo{
+    color:#FF00FF ;
+}
+
+
+.celular{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.mockup{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.img-mockup{
+    height: 550px;
+}
+
+
+.textomockup{
+    width: 500px;
+}
+
+/* 5ª SEÇÃO - LUIS */
+
+.titulo-h2-plano{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.texto-sobre-plano{
+    font-size: 18px;
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.caixa-planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.plano {
+    width: 300px;
+    height: 330px;
+    background-color: #9DBDEF;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+  }
+  .preco {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .titulo-inf {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .plano2 {
+    width: 300px;
+    height: 330px;
+    background-color: #C1A4E1;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+  }
+  .botao-assinar {
+    background-color: #3333C4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 180px;
+  }
+  .caracteristicas{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .menor{
+    font-size: 20px;
+  }
